@@ -4,7 +4,10 @@ const config: CapacitorConfig = {
   appId: 'io.ionic.starter',
   appName: 'preview-app',
   webDir: 'www',
-  bundledWebRuntime: false
+  bundledWebRuntime: false,
+  plugins: {
+    "CapOcr": {}
+  }
 };
 
 export default config;
